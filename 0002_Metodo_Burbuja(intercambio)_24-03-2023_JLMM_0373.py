@@ -10,7 +10,9 @@ import random
 def ordenamiento_por_burbuja(arreglo):
     n1 = len(arreglo)
     for i in range(n1):
+        # Contamos cuántos elementos son más pequeños que el elemento actual
         for j in range(0, n1-i-1):
+             # Colocamos el elemento en su posición adecuada
             if arreglo[j] > arreglo[j+1]:
                 arreglo[j], arreglo[j+1] = arreglo[j+1], arreglo[j]
     return arreglo
