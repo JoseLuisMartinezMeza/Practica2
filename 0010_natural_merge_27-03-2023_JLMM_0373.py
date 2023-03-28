@@ -8,7 +8,7 @@ Created on Mon Mar 27 20:49:17 2023
 import random
 
 def natural_merge_sort(arreglo):
-    # Función para dividir la arreglo en sub-arreglos ordenadas
+    # Funcion para dividir la arreglo en sub-arreglos ordenadas
     def split_runs(arreglo):
         runs = []
         current_run = [arreglo[0]]
@@ -21,7 +21,7 @@ def natural_merge_sort(arreglo):
         runs.append(current_run)
         return runs
 
-    # Función para combinar dos sub-arreglos ordenadas en una sola arreglo ordenada
+    # Funcion para combinar dos sub-arreglos ordenadas en una sola arreglo ordenada
     def merge(l1, l2):
         result = []
         i = j = 0
