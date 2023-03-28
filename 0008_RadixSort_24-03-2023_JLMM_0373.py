@@ -49,6 +49,7 @@ def radixSort(arreglo):
 
 # Genera una arregloeglo de 5 números aleatorios del 1 al 100
 arreglo = random.sample(range(1, 101), 5)
-print("arregloeglo original:", arreglo)
+
+print("arreglo original:", arreglo)
 radixSort(arreglo)
-print("arregloeglo ordenada:", arreglo)
+print("arreglo ordenada:", arreglo)
